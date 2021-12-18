@@ -63,4 +63,4 @@ async def on_message(message):
       else:
         await message.channel.send(tmp[1])
 
-client.run('OTIxNjU4NDk2NTEwOTg4Mjk4.Yb2HXQ._m9NuLdqJHAX151jp9CHoBnRbzI') #TOKEN在剛剛Discord Developer那邊「BOT」頁面裡面
+client.run('') #TOKEN在剛剛Discord Developer那邊「BOT」頁面裡面
