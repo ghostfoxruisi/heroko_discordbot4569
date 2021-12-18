@@ -56,7 +56,7 @@ async def on_message(message):
     #如果以「說」開頭
     if message.content.startswith('早安'):
       #分割訊息成兩份
-      tmp = message.content.split(" ",2)
+      tmp = message.content.split("早安啊~~",2)
       #如果分割後串列長度只有1
       if len(tmp) == 1:
         await message.channel.send("你要我說什麼啦？")
